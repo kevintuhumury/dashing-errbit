@@ -76,7 +76,7 @@ As you can see, each project needs an Errbit API key. You can find them on each 
 
 ## Preview
 
-![image](https://f.cloud.github.com/assets/412952/1130374/6b7067ee-1ba5-11e3-9b0c-6b3160575290.png)
+![image](https://f.cloud.github.com/assets/412952/1130999/a95689d2-1bb2-11e3-9ee7-b544ce763b2c.png)
 
 ## Copyright
 
