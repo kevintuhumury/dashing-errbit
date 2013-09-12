@@ -4,6 +4,7 @@
   %li(data-foreach-project="projects")
     %h2(data-bind="project.name")
     %h3(data-bind="project.errors" data-bind-class="project.status")
-    %h4 unresolved errors
+    %h4(data-showif="project.errors | equals 1") unresolved error
+    %h4(data-hideif="project.errors | equals 1") unresolved errors
 
 %p(class="updated-at" data-bind="updatedAtMessage")
