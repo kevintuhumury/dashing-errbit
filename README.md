@@ -35,7 +35,7 @@ Now run `bundle install`.
 
 To use this widget, copy `errbit.coffee`, `errbit.haml` and `errbit.sass` into the `/widgets/errbit` directory of your dashboard. Copy `errbit.png` to the `/assets/images` directory, put the `/jobs/errbit.rb` file in the `/jobs` folder and the `lib/errbit.rb` file into the `lib` directory. If there isn't one yet, create it.
 
-The last thing to do is, is to copy the `config.yml` into the root of your Dashing directory. We'll fill in the correct settings in the next step.
+The last thing to do, is to copy the `config.yml` into the root of your Dashing directory. We'll fill in the correct settings in the next step.
 
 To include the widget on your dashboard, add the following snippet to the dashboard layout file:
 
@@ -72,11 +72,11 @@ It's all pretty self explanatory, but let's go through the available configurati
 
 The important part (besides the `base_uri`) of the configuration file is the `projects` element. You can add as many projects as you want, since the widget will 'slide' through them.
 
-As you can see, each project needs an Errbit API key. You can find them on each project page of your Errbit instance. Just login to your Errbit server, go to the project page of which you want to show the unresolved errors in this widget. The API key should be right below the project title (at the top of the page).
+As you can see, each project needs an Errbit API key. You can find an API key on it's project page in your Errbit application. Just login to your Errbit instance, go to the project page of which you want to show the unresolved errors in this widget and the API key should be right below the project title (at the top of the page).
 
 ## Preview
 
-![image](https://f.cloud.github.com/assets/412952/1130999/a95689d2-1bb2-11e3-9ee7-b544ce763b2c.png)
+![image](https://f.cloud.github.com/assets/412952/1134595/c16a5c28-1bf4-11e3-9e81-e106cd544d09.png)
 
 ## Copyright
 
