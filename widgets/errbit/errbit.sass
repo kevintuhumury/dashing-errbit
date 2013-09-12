@@ -36,7 +36,7 @@ $failure: red
 
     &.status
       +text-shadow(rgba($shadow-color, 0.5) -1px -1px 1px)
-      margin: 15px auto
+      margin: 10px auto
       padding: 44px 10px
       width: 150px
       font-size: 60px
@@ -57,6 +57,18 @@ $failure: red
     font-size: 15px
     text-transform: uppercase
     +text-shadow(rgba($shadow-color, 1) 1px 1px 1px)
+    margin-bottom: 20px
+
+  span
+    +text-shadow(rgba($shadow-color, 0.5) -1px -1px 1px)
+    position: absolute
+    right: 0
+    left: 0
+    bottom: 40px
+    color: #fff
+    font-size: 8px
+    letter-spacing: 2px
+    text-transform: uppercase
 
   p
     &.updated-at
