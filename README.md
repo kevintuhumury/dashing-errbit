@@ -1,6 +1,6 @@
 # Errbit Dashing widget
 
-Errbit widget for [Dashing](http://shopify.github.com/dashing), which shows the number of unresolved errors for a specified project. [Errbit](http://errbit.github.io/errbit/) is an open source, self-hosted error catcher. In other words a tool for collecting and managing errors from other applications. An example of the widget can be viewed [below](https://github.com/kevintuhumury/dashing-errbit#preview).
+Errbit widget for [Dashing](http://shopify.github.com/dashing), which shows the number of unresolved errors for a specified project. [Errbit](http://errbit.github.io/errbit/) is an open source, self-hosted error catcher. In other words a tool for collecting and managing errors from other applications. Depending on the number of projects you've added, it will 'slide' through them (if you've got more than one). An example of the widget can be viewed [below](https://github.com/kevintuhumury/dashing-errbit#preview).
 
 ## Dependencies
 
@@ -73,6 +73,10 @@ It's all pretty self explanatory, but let's go through the available configurati
 The important part (besides the `base_uri`) of the configuration file is the `projects` element. You can add as many projects as you want, since the widget will 'slide' through them.
 
 As you can see, each project needs an Errbit API key. You can find them on each project page of your Errbit instance. Just login to your Errbit server, go to the project page of which you want to show the unresolved errors in this widget. The API key should be right below the project title (at the top of the page).
+
+## Preview
+
+![image](https://f.cloud.github.com/assets/412952/1130374/6b7067ee-1ba5-11e3-9b0c-6b3160575290.png)
 
 ## Copyright
 
