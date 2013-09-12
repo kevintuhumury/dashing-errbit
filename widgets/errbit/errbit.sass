@@ -24,7 +24,7 @@ $failure: red
     text-overflow: ellipsis
     font-size: 12px
     font-weight: normal
-    color: lighten($background-color, 25%)
+    color: lighten($background-color, 15%)
     letter-spacing: 1px
     width: 275px
     height: 20px
@@ -56,6 +56,7 @@ $failure: red
   h4
     font-size: 15px
     text-transform: uppercase
+    +text-shadow(rgba($shadow-color, 1) 1px 1px 1px)
 
   p
     &.updated-at
