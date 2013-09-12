@@ -1,0 +1,9 @@
+%h1
+
+%ul
+  %li(data-foreach-project="projects")
+    %h2(data-bind="project.name")
+    %h3(data-bind="project.errors" data-bind-class="project.status")
+    %h4 unresolved errors
+
+%p(class="updated-at" data-bind="updatedAtMessage")

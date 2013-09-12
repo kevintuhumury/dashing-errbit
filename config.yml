@@ -1,0 +1,8 @@
+:errbit:
+  :projects:
+    :project_1:
+      :api_key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    :project_2:
+      :api_key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  :base_uri: "https://errbit.example.com"
+  :date_format: "%d/%m/%y %H:%M"
