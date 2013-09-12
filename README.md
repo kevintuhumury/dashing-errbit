@@ -65,10 +65,10 @@ The `config.yml` file should look something like the following:
     :project_2:
       :api_key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   :base_uri: "https://errbit.example.com"
-  :date_format: "%d/%m/%y %H:%M"
+  :date_format: "%d/%m %H:%M"
 ```
 
-It's all pretty self explanatory, but let's go through the available configuration settings. We'll start at the bottom with `base_uri` and `date_format`. The `base_uri` is basically the URL of your Errbit server. `date_format` is used to format the date of the last occurred error. By default it will output something like the following: `26/09/13 18:01`.
+It's all pretty self explanatory, but let's go through the available configuration settings. We'll start at the bottom with `base_uri` and `date_format`. The `base_uri` is basically the URL of your Errbit server. `date_format` is used to format the date of the last occurred error. By default it will output something like the following: `26/09 18:01`.
 
 The important part (besides the `base_uri`) of the configuration file is the `projects` element. You can add as many projects as you want, since the widget will 'slide' through them.
 
