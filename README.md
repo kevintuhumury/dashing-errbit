@@ -4,7 +4,7 @@ Errbit widget for [Dashing](http://shopify.github.com/dashing), which shows the 
 
 ## Dependencies
 
-This widget has been [Haml](http://haml.info/)ified (we're using a HAML template in the `/widgets/errbit` directory instead of an HTML template), so besides the above you'll also need to add `haml` to the Gemfile (if you haven't already):
+This widget has been [Haml](http://haml.info/)ified (we're using a HAML template in the `/widgets/errbit` directory instead of an HTML template), so you'll need to add `haml` to the Gemfile (if you haven't already):
 
 ```ruby
 gem "haml"
