@@ -4,24 +4,15 @@ Errbit widget for [Dashing](http://shopify.github.com/dashing), which shows the 
 
 ## Dependencies
 
-The widget uses [Compass](http://compass-style.org/) to easily apply CSS3 features, like `linear-gradient`, `text-shadow` and `border-radius`. In order for that to work with Dashing, we also need [Sprockets Sass](https://github.com/petebrowne/sprockets-sass). So both Compass and Sprockets Sass are dependencies of the Errbit widget. To add these dependencies, add `sprockets-sass` and `compass` to the Gemfile of your Dashing dashboard:
-
-```ruby
-gem "sprockets-sass"
-gem "compass"
-```
-
-This widget has also been [Haml](http://haml.info/)ified (we're using a HAML template in the `/widgets/errbit` directory instead of an HTML template), so besides the above you'll also need to add `haml` to the Gemfile (if you haven't already):
+This widget has been [Haml](http://haml.info/)ified (we're using a HAML template in the `/widgets/errbit` directory instead of an HTML template), so besides the above you'll also need to add `haml` to the Gemfile (if you haven't already):
 
 ```ruby
 gem "haml"
 ```
 
-To be able to use the above dependencies, you'll also need to require them in your `config.ru` file. It's really important that both `sprockets-sass` and `compass` are required __before__ dashing itself. `haml` can be required after it. So the first few lines of your `config.ru` should look something like the following:
+and require it in your `config.ru` file right below the require of dashing itself. So the first few lines of your `config.ru` should look something like the following:
 
 ```ruby
-require 'sprockets-sass'
-require 'compass'
 require 'dashing'
 require 'haml'
 
@@ -76,7 +67,7 @@ As you can see, each project needs an Errbit API key. You can find an API key on
 
 ## Preview
 
-![image](https://f.cloud.github.com/assets/412952/1134595/c16a5c28-1bf4-11e3-9e81-e106cd544d09.png)
+![image](https://f.cloud.github.com/assets/412952/1143396/f50263e2-1d38-11e3-9e1a-411fe5865a1b.png)
 
 ## Copyright
 
