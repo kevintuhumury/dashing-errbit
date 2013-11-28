@@ -32,7 +32,7 @@ class Errbit
   end
 
   def date
-    DateTime.parse(response[:last_error_time]).strftime date_format
+    DateTime.parse(response[:last_error_time]).strftime date_format if response[:last_error_time]
   end
 
   def errors
