@@ -1,8 +1,8 @@
 %ul
-  %li(data-foreach-project="projects")
+  %li(data-foreach-project="projects" data-bind-class="project.status")
     %h1
     %h2(data-bind="project.name")
-    %h3(data-bind="project.errors" data-bind-class="project.status")
+    %h3(data-bind="project.errors")
     %h4(data-showif="project.errors | equals 1") unresolved error
     %h4(data-hideif="project.errors | equals 1") unresolved errors
     %span(data-bind="project.date | prepend 'last error: '")
